@@ -1,0 +1,56 @@
+{	
+  "react client component": {
+    "prefix": "rccomp",
+    "body": [
+	  "'use client'",
+      "",
+	  "type Props =  {${3:}}",
+      "const ${1:ComponentName} = () => {",
+      "  return (",
+      "    <div>",
+      "      ${2:Content}",
+      "    </div>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:ComponentName};"
+    ],
+    "description": "Create a basic React Client Component"
+  },
+  "react server component": {
+	"prefix": "rscomp",
+    "body": [
+	  "type Props =  {${3:}}",
+      "const ${1:ComponentName} = () => {",
+      "  return (",
+      "    <div>",
+      "      ${2:Content}",
+      "    </div>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:ComponentName};"
+    ],
+    "description": "Create a basic React Server Component"
+  },
+    "react hooks component": {
+    "prefix": "rhc",
+    "body": [
+	  "import { useState, useEffect, FC } from 'react'",
+      "export type Props = { $2: $3 }",
+      "export const $1: FC<Props> = ({ $2 }) => {",
+      "    console.log({ $2 })",
+      "    const [$4,  set${4/(.*)/${4:/capitalize}/}] = useState($6);",
+      "    useEffect(() => {}, [])",
+      "    return (",
+      "       <div>",
+      "        ${0:Content}",
+      "      </div>",
+      "    )",
+      "};",
+      "",
+      "export default $1;"
+    ],
+    "description": "Create a React Hooks Component."
+  },
+}

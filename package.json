@@ -1,0 +1,24 @@
+{
+  "name": "shavidze-react-ts-snippets",
+  "displayName": "shavidze-react-ts-snippets",
+  "description": "A collection of React TypeScript code snippets for improved development productivity",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "react-typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
