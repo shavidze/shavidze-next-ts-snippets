@@ -3,9 +3,25 @@
   "displayName": "shavidze-react-ts-snippets",
   "description": "A collection of React TypeScript code snippets for improved development productivity",
   "version": "0.0.1",
+  "publisher": "shavidze",
+  "icon": "images/react.png",
+  "galleryBanner": {
+    "theme": "light"
+  },
+  "repository": {
+    "type": "https://github.com/shavidze/shavidze-react-ts-snippets.git",
+    "url": "git+https://github.com/shavidze/shavidze-react-ts-snippets.git"
+  },
   "engines": {
     "vscode": "^1.78.0"
   },
+    "keywords": [
+    "react",
+    "vscode",
+    "typescript",
+    "vscode-extension"
+  ],
+  "homepage": "https://github.com/shavidze/shavidze-react-ts-snippets#readme",
   "categories": [
     "Snippets"
   ],
