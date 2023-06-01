@@ -53,4 +53,41 @@
     ],
     "description": "Create a React Hooks Component."
   },
+  "Next.js GET Route ": {
+    "prefix": "ngroute",
+    "body": [
+      "import { NextResponse } from 'next/server';",
+      "",
+      "export async function GET() {",
+      "  const res = await fetch('$1', {",
+      "    headers: {",
+      "      'Content-Type': 'application/json',",
+      "      'API-key': process.env.YOUR_API_KEY,",
+      "    },",
+      "  });",
+      "  const data = await res.json();",
+      "  return NextResponse.json({ data });",
+      "}"
+    ],
+    "description": "Create a GET Route Handler for Next.js"
+  },
+    "Next.js POST Route": {
+    "prefix": "nproute",
+    "body": [
+      "import { NextResponse } from 'next/server';",
+      "",
+      "export async function POST() {",
+      "  const res = await fetch('$1', {",
+      "    method: 'POST',",
+      "    headers: {",
+      "      'Content-Type': 'application/json',",
+      "      'API-key': process.env.YOUR_API_KEY,",
+      "    },",   
+      "    body: JSON.stringify({ time: new Date().toISOString() }),",
+      "  });", 
+      "  const data = await res.json();",
+      "  return NextResponse.json(data);",
+      "}"
+    ]
+  }
 }
