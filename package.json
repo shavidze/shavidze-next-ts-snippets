@@ -7,6 +7,7 @@
   "galleryBanner": {
     "theme": "light"
   },
+  "icon": "images/react.png",
   "repository": {
     "type": "https://github.com/shavidze/shavidze-react-ts-snippets.git",
     "url": "git+https://github.com/shavidze/shavidze-react-ts-snippets.git"
