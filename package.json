@@ -2,7 +2,7 @@
   "name": "shavidze-react-ts-snippets",
   "displayName": "shavidze-react-ts-snippets",
   "description": "A collection of React TypeScript code snippets for improved development productivity",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "SabaShavidze",
   "galleryBanner": {
     "theme": "light"
@@ -15,7 +15,7 @@
   "engines": {
     "vscode": "^1.78.0"
   },
-    "keywords": [
+  "keywords": [
     "react",
     "vscode",
     "typescript",
