@@ -3,8 +3,7 @@
   "displayName": "shavidze-react-ts-snippets",
   "description": "A collection of React TypeScript code snippets for improved development productivity",
   "version": "0.0.1",
-  "publisher": "shavidze",
-  "icon": "images/react.png",
+  "publisher": "SabaShavidze",
   "galleryBanner": {
     "theme": "light"
   },
